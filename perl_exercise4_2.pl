@@ -10,9 +10,9 @@ Use loop to calculate reverse. Don’t use reverse function.
 
 print("Please enter number\t");
 
-chomp(my $number=<>);
+chomp(my $number = <>);
 
-my $count=length($number);
+my $count = length($number);
 
 my @spl = split('',$number);
 

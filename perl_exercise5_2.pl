@@ -7,9 +7,6 @@ Input word till 'exit' is typed. Print the longest word typed at the end.
 =cut
 
 my $count = 0;
-
-my $str2 = "exit";
-
 my $longest = 0;
 
 my $input;
@@ -24,7 +21,7 @@ do{
         $long_word = $input;
     }
 
-}until($input eq $str2);
+}until($input eq "exit");
 
 print("longest word type is:$long_word\n");
 

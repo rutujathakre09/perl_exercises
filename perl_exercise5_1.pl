@@ -7,25 +7,17 @@ Input word till 'stop' is typed.
 Print number of words typed (other than stop).
 =cut
 
-my $count=0;
-
-my $str2="stop";
-
+my $count = 0;
 my $input;
 
 do{
-
     print("Please enter word , type stop to exit\t");
-
-    chomp($input=<>);
-
-    if($input ne $str2){
-
+    chomp($input = <>);
+    if($input ne "stop"){
         $count++;
-
     }
 
-}until($input eq $str2);
+}until($input eq "stop");
 
 print("Number of words typed:$count\n");
 

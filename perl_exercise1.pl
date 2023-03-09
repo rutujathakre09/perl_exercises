@@ -17,6 +17,6 @@ my $rice_quantity = 5;
 my $washing_soap_price = 5;
 my $washing_soap_quantity = 10;
 
-my $total_bill=($rice_price*$rice_quantity)+($washing_soap_price*$washing_soap_quantity);
+my $total_bill = ($rice_price*$rice_quantity)+($washing_soap_price*$washing_soap_quantity);
 
 print("Total Bill is $total_bill\n");

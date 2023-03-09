@@ -10,11 +10,11 @@ Display number of letters in the name.
 
 print("Please enter name\t");
 
-chomp($name=<>);
+chomp($name = <>);
 
 $num_count=length($name);
 
-if($num_count>4){
+if($num_count > 4){
     print("Number of letters in name are:$num_count\n");
 }else{
     print("Name should have atleast 4 letters\n");
