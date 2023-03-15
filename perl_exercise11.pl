@@ -12,9 +12,9 @@ my @words = split(" ",$line);
 my $count = 0;
 foreach my $word (@words)
 {
-	my $length_of_word = length($word);
+    my $length_of_word = length($word);
 	print "Number of charecters in $word : $length_of_word\n";
-	$count++;
+	$count++;	
 }
 print "Total Number of words in sentense : $count\n";
 

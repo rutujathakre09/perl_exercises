@@ -11,18 +11,19 @@ my %transaction_details;
 my $type;
 my $quantity;
 
-while(1){
-print "Enter a transaction type:";
-chomp($type = <STDIN>);
-last if($type eq "end");
-print "Enter quantity:";
-chomp($quantity = <STDIN>);
-$transaction_details{$type} += $quantity;
+while(1)
+{
+    print "Enter a transaction type:";
+    chomp($type = <STDIN>);
+    last if($type eq "end");
+    print "Enter quantity:";
+    chomp($quantity = <STDIN>);
+    $transaction_details{$type} += $quantity;
 }
 print("Transaction type total:\n");
 while( my ($k,$v) = each %transaction_details)
 {
-    print("$k:$v\n");
+    print("$k:$v\n");   
 }
 
 

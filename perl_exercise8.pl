@@ -11,7 +11,8 @@ chomp(my $names = <>);
 my @names_arr = split(',',$names);
 my @sorted_names = sort(@names_arr);
 print "Names in ascending order:\t";
-foreach my $name( @sorted_names ){
-	print("$name\t");
+foreach my $name( @sorted_names )
+{
+    print("$name\t");
 }
 print("\n");

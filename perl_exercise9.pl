@@ -10,8 +10,9 @@ print "Enter Comma seprated Names\t";
 chomp(my $names = <>);
 my @names_arr = split(',',$names);
 print "Names having length greather than 5:\t";
-foreach my $name( @names_arr ){
-	next if(length($name) <= 5);
+foreach my $name( @names_arr )
+{
+    next if(length($name) <= 5);
 	print("$name\t");
 }
 print("\n");
